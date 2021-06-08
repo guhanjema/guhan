@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '♻️ Share Us With Friends ♻️', url="https://telegram.me/share/url?url=https://t.me/Tamil_Tentkotta"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '♻️ Share Us With Friends ♻️', url="https://telegram.me/share/url?url=https://t.me/Tamil_Tentkotta"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '♻️ Share Us With Friends ♻️', url="https://telegram.me/share/url?url=https://t.me/Tamil_Tentkotta"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developers', url='https://t.me/Thalapathy_off'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/Thalapathy_off')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Group🔰', url='https://t.me/Tentkottagroup')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
