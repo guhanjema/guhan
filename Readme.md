@@ -1,4 +1,4 @@
-# Adv Auto Filter Bot V2
+# Filter Bot V2
 
 <p align="center">
   <a href="https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2/stargazers">
