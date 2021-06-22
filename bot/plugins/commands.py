@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️ Share Us With Friends ♻️', url="https://telegram.me/share/url?url=https://t.me/Tamil_Tentkotta"
+                                    '♻️ Share Us With Friends ♻️', url="https://t.me/Tamil_HDMoviez"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️ Share Us With Friends ♻️', url="https://telegram.me/share/url?url=https://t.me/Tamil_Tentkotta"
+                                    '♻️ Share Us With Friends ♻️', url="https://t.me/Tamil_HDMoviez"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️ Share Us With Friends ♻️', url="https://telegram.me/share/url?url=https://t.me/Tamil_Tentkotta"
+                                    '♻️ Share Us With Friends ♻️', url="https://t.me/Tamil_HDMoviez"
                                 )
                         ]
                     ]
