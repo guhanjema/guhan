@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️ Share Us With Friends ♻️', url="https://t.me/Tamil_HDMoviez"
+                                    '♻️ Share Us With Friends ♻️', url="https://t.me/ottrockersz"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️ Share Us With Friends ♻️', url="https://t.me/Tamil_HDMoviez"
+                                    '♻️ Share Us With Friends ♻️', url="https://t.me/ottrockersz"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️ Share Us With Friends ♻️', url="https://t.me/Tamil_HDMoviez"
+                                    '♻️ Share Us With Friends ♻️', url="https://t.me/ottrockersz"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/Thalapathy_off'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/Thalapathy_off')
+        InlineKeyboardButton('Channel 1 🎪', url='https://t.me/ottrockersz'),
+        InlineKeyboardButton('Channel 2 🎟', url ='https://t.me/OttRockerDub')
     ],[
-        InlineKeyboardButton('Group🔰', url='https://t.me/Tentkottagroup')
+        InlineKeyboardButton('Developers', url='https://t.me/Thalapathy_off')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
@@ -112,8 +112,8 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('Home 🏠', callback_data='start'),
+        InlineKeyboardButton('About 🔖', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
@@ -133,7 +133,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('Home 🏠', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
